@@ -1,0 +1,42 @@
+With Local CPU
+
+First Training with frozen parameters (15 hours aprox):
+Epoch 1/10, Loss: 0.2129, Accuracy: 0.9240
+Epoch 2/10, Loss: 0.1703, Accuracy: 0.9370
+Epoch 3/10, Loss: 0.1605, Accuracy: 0.9437
+Epoch 4/10, Loss: 0.1584, Accuracy: 0.9425
+Epoch 5/10, Loss: 0.1545, Accuracy: 0.9450
+Epoch 6/10, Loss: 0.1540, Accuracy: 0.9455
+Epoch 7/10, Loss: 0.1686, Accuracy: 0.9406
+Epoch 8/10, Loss: 0.1443, Accuracy: 0.9496
+Epoch 9/10, Loss: 0.1419, Accuracy: 0.9474
+Epoch 10/10, Loss: 0.1505, Accuracy: 0.9456
+
+Second Training without forozen parameters (19 hours aprox):
+Epoch 1/5, Loss: 0.1393, Accuracy: 0.9499
+Epoch 2/5, Loss: 0.0627, Accuracy: 0.9783
+Epoch 3/5, Loss: 0.0525, Accuracy: 0.9814
+Epoch 4/5, Loss: 0.0356, Accuracy: 0.9883
+Epoch 5/5, Loss: 0.0260, Accuracy: 0.9920
+
+
+With Google Colab GPU
+
+First Training with frozen parameters (Less than an hour):
+Epoch 1/10, Loss: 0.1971, Accuracy: 0.9262
+Epoch 2/10, Loss: 0.1672, Accuracy: 0.9406
+Epoch 3/10, Loss: 0.1597, Accuracy: 0.9406
+Epoch 4/10, Loss: 0.1575, Accuracy: 0.9418
+Epoch 5/10, Loss: 0.1547, Accuracy: 0.9448
+Epoch 6/10, Loss: 0.1525, Accuracy: 0.9461
+Epoch 7/10, Loss: 0.1499, Accuracy: 0.9439
+Epoch 8/10, Loss: 0.1400, Accuracy: 0.9488
+Epoch 9/10, Loss: 0.1470, Accuracy: 0.9462
+Epoch 10/10, Loss: 0.1423, Accuracy: 0.9489
+
+Second Training without forozen parameters (Less than an hour):
+Epoch 1/5, Loss: 0.1499, Accuracy: 0.9463
+Epoch 2/5, Loss: 0.0558, Accuracy: 0.9808
+Epoch 3/5, Loss: 0.0501, Accuracy: 0.9834
+Epoch 4/5, Loss: 0.0355, Accuracy: 0.9883
+Epoch 5/5, Loss: 0.0294, Accuracy: 0.9909
