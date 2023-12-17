@@ -45,20 +45,37 @@ Epoch 5/5, Loss: 0.0294, Accuracy: 0.9909
 With Google Colab GPU and More Data
 
 First Training with frozen parameters (Less than an hour):
-Epoch 1/10, Loss: 0.2063, Accuracy: 0.9197
-Epoch 2/10, Loss: 0.1475, Accuracy: 0.9493
-Epoch 3/10, Loss: 0.1529, Accuracy: 0.9460
-Epoch 4/10, Loss: 0.1392, Accuracy: 0.9505
-Epoch 5/10, Loss: 0.1466, Accuracy: 0.9485
-Epoch 6/10, Loss: 0.1397, Accuracy: 0.9486
-Epoch 7/10, Loss: 0.1364, Accuracy: 0.9518
-Epoch 8/10, Loss: 0.1263, Accuracy: 0.9540
-Epoch 9/10, Loss: 0.1275, Accuracy: 0.9531
-Epoch 10/10, Loss: 0.1257, Accuracy: 0.9544
+Epoch 1/10, Loss: 0.1688, Accuracy: 0.9387
+Val Loss: 0.1197, Val Accuracy: 0.9561
+Epoch 2/10, Loss: 0.1506, Accuracy: 0.9469
+Val Loss: 0.1009, Val Accuracy: 0.9624
+Epoch 3/10, Loss: 0.1462, Accuracy: 0.9460
+Val Loss: 0.1171, Val Accuracy: 0.9578
+Epoch 4/10, Loss: 0.1467, Accuracy: 0.9468
+Val Loss: 0.0993, Val Accuracy: 0.9616
+Epoch 5/10, Loss: 0.1400, Accuracy: 0.9515
+Val Loss: 0.0932, Val Accuracy: 0.9641
+Epoch 6/10, Loss: 0.1384, Accuracy: 0.9529
+Val Loss: 0.1164, Val Accuracy: 0.9570
+Epoch 7/10, Loss: 0.1323, Accuracy: 0.9528
+Val Loss: 0.0954, Val Accuracy: 0.9641
+Epoch 8/10, Loss: 0.1272, Accuracy: 0.9557
+Val Loss: 0.0962, Val Accuracy: 0.9616
+Epoch 9/10, Loss: 0.1262, Accuracy: 0.9538
+Val Loss: 0.0941, Val Accuracy: 0.9624
+Epoch 10/10, Loss: 0.1222, Accuracy: 0.9571
+Val Loss: 0.1025, Val Accuracy: 0.9649
 
 Second Training without forozen parameters (Less than an hour):
-Epoch 1/5, Loss: 0.1400, Accuracy: 0.9509
-Epoch 2/5, Loss: 0.0606, Accuracy: 0.9777
-Epoch 3/5, Loss: 0.0470, Accuracy: 0.9843
-Epoch 4/5, Loss: 0.0450, Accuracy: 0.9854
-Epoch 5/5, Loss: 0.0343, Accuracy: 0.9890
+Epoch 1/6, Loss: 0.0497, Accuracy: 0.9847
+Val Loss: 0.1502, Val Accuracy: 0.9632
+Epoch 2/6, Loss: 0.0368, Accuracy: 0.9873
+Val Loss: 0.1234, Val Accuracy: 0.9653
+Epoch 3/6, Loss: 0.0251, Accuracy: 0.9936
+Val Loss: 0.1618, Val Accuracy: 0.9662
+Epoch 4/6, Loss: 0.0235, Accuracy: 0.9929
+Val Loss: 0.1410, Val Accuracy: 0.9616
+Epoch 5/6, Loss: 0.0222, Accuracy: 0.9925
+Val Loss: 0.1411, Val Accuracy: 0.9616
+Epoch 6/6, Loss: 0.0188, Accuracy: 0.9938
+Val Loss: 0.1568, Val Accuracy: 0.9653

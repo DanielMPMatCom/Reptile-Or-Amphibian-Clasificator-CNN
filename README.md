@@ -32,13 +32,13 @@ The project focuses on building a classifier capable of distinguishing between r
 
 - **Training Results:** Two separate training sessions were conducted, highlighting:
   - Initial training with frozen ResNet-50 layers achieving the following accuracies:
-    - 94% with Local CPU.
-    - 94% with Colab GPU.
-    - 95% with Colab GPU and balanced data.
+    - 94% on training with Local CPU.
+    - 94% on training with Colab GPU.
+    - 95% on training and 96% on validation with Colab GPU and balanced data.
   - After unfreezing and retraining, accuracies improved significantly to:
-    - 99% with Local CPU.
-    - 99% with Colab GPU.
-    - 98% with Colab GPU and balanced data.
+    - 99% on training with Local CPU.
+    - 99% on training with Colab GPU.
+    - 99% on training and 96% on validation with Colab GPU and balanced data.
 - **No Impact of Dataset Composition:** Contrary to what we assumed, the analysis revealed no differences in model performance based on the different compositions that were experimented with the data set. This is probably because when fine-tuning Resnet-50, such a powerful model, both dataset configurations were appropriate for training.
 
 ## Conclusion
