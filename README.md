@@ -2,7 +2,7 @@
 
 This repository contains the code and resources for a Machine Learning project aimed at classifying images of Reptiles and Amphibians with a Convolutional Neural Network using PyTorch.
 
-![Amphibian vs Reptile](Presentation/Resources/Reptile-Amphibian.jpg)
+![Amphibian vs Reptile](image/Reptile-Amphibian.jpg)
 
 ## Overview
 
