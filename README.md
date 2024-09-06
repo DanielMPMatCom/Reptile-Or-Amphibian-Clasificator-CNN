@@ -2,6 +2,8 @@
 
 This repository contains the code and resources for a Machine Learning project aimed at classifying images of Reptiles and Amphibians with a Convolutional Neural Network using PyTorch.
 
+![Amphibian vs Reptile](Presentation/Resources/Reptile-Amphibian.jpg)
+
 ## Overview
 
 The project focuses on building a classifier capable of distinguishing between reptiles and amphibians based on image data. The classification task involves utilizing the ResNet-50 architecture from PyTorch, fine-tuning it, and training it on a custom dataset.
